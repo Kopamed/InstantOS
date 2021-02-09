@@ -1,28 +1,43 @@
 display day on like monday when u hover over the time
+=========================
 
 I'm pretty heavily visually impaired (registered blind), and currently rely on the in-built full-screen zoom feature in Windows and macOS to allow me to do my work. It's really annoying because currently I'm having to use xmonad inside of a VMWare vm on my PC, which is just a huge waste of hardware resources, just to allow me to Super,+ and Super,- to zoom in.
 I've done a fair bit of research and haven't been able to find any way of implementing this myself, but then again, I'm fairly new to configuring wms. If this a feature you could implement, you have me as a long term user!
+=========================
 
 https://raw.githubusercontent.com/instantOS/instantARCH/master/topinstall.sh enable user prompts to install the default settings like lightdm, mirrors, timezone, for a vanilla install or to leave those settings unchanged for an existing system looking to install instantWM
+=========================
 
 Give instantOS bot a profile picture
+=========================
 
 Have an option to change the positioning of the status bar?
+=========================
 
 Suggestion: 
 have PrtSc do import ~/Pictures/Screenshots/"$(date)".png
 have meta + PrtSc do import -window root ~/Pictures/Screenshots/"$(date)".png
 have alt + PrtSc do import -window $(xdotool getmouselocation --shell | grep WINDOW | awk -F "=" '{print $2}') ~/Pictures/Screenshots/"$(date)".png
+=========================
 
 Central theming app that allows people to upload and load rises of instant OS
+=========================
 
 Is it possible to make the mousewheel scroll feature that activates tmux's prefix+[ scoll compatible with vim's scroll?
+=========================
 
 Maybe add this to the distribution by default : Adobe Source Han fonts - Large collection of fonts which comprehensively support Simplified Chinese, Traditional Chinese, Japanese, and Korean, with a consistent design and look.
+=========================
 
 I just saw that new settings menu, Definitely add a setting to change the time zone, and maybe copy the settings from the gnome settings app, since that is more complete.
+=========================
 
 suggestion: est time to 100% charge, and est time to discharge for the battery
+=========================
 
 I've been wanting to introduce clickable widgets for a while, but that will still take a bit
 But when I do that, a battery widget will certainly be one of them
+=========================
+
+allow the user to paste text into the super+a+j+t spam box with ctrl+shift+v
+=========================

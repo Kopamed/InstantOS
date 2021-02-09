@@ -1,0 +1,36 @@
+Randomfps drops due to the way that the taskbar updates
+=========================
+
+mouse settings dont get saved over a long time of shutdown
+=========================
+
+if you move past the 1-9 numbers at the top left too fast, one of them can actually stay lit
+=========================
+
+super+a+p doesn't ask you to install sent
+=========================
+
+when super + e (showing all tags), if everything you have is one tag already, windows change position
+=========================
+
+My mouse sensitivity keeps resetting to 50
+=========================
+
+some sort of error with the instantos oh-my-zsh theme prompt:
+(the prompt_git:1: stuff isn't being printed by a command; it's being printed by the zsh theme)
+repro steps:
+1) open terminal
+2) type kill<SPACE><TAB><ENTER>
+3) notice the errors
+I'm not good enough with zsh scripting to know how to fix this
+but I know the errors are coming from the functions in ~/.oh-my-zsh/custom/themes/instantos.zsh-theme
+=========================
+
+Instant lock seems to not support every character that you can have as password, seems like kinda a problem, It didn't let me in cuz my password had 'ů' in it (czech layout)
+=========================
+
+Super+a+l used to lock the screen with a custom message does not prompt for a message
+=========================
+
+Super+a+j+t needs you to put a 0 in front of the bumber of times to spam, if your number is less then 10 (fixed on master)
+=========================
